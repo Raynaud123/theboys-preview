@@ -35,42 +35,221 @@
     />
 
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "@id": "https://theboysontruimen.com/#business",
-        "name": "The Boys Ontruimen",
-        "alternateName": "The Boys Ontruimingsfirma",
-        "url": "https://theboysontruimen.com/",
-        "telephone": "+32467036401",
-        "email": "info@theboysontruimen.be",
-        "image": "https://theboysontruimen.com/og.jpg",
-        "description": "Ontruimen van woningen en panden, mobiele containerpark service, werfopkuis en het reinigen van terrassen, gevels en dakgoten in Oost- en West-Vlaanderen.",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Gent",
-          "addressRegion": "Oost-Vlaanderen",
-          "addressCountry": "BE"
-        },
-        "areaServed": [
-          { "@type": "AdministrativeArea", "name": "Oost-Vlaanderen" },
-          { "@type": "AdministrativeArea", "name": "West-Vlaanderen" }
-        ],
-        "founder": [
-          { "@type": "Person", "name": "Anton Versele" },
-          { "@type": "Person", "name": "Lucas Calliauw" }
-        ],
-        "vatID": "BE1030220271",
-        "priceRange": "€€",
-        "openingHours": "Mo-Fr 07:00-18:00",
-        "sameAs": []
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://theboysontruimen.com/#business",
+  "name": "The Boys Ontruimen",
+  "alternateName": "The Boys Ontruimingsfirma",
+  "url": "https://theboysontruimen.com/",
+  "telephone": "+32467036401",
+  "email": "info@theboysontruimen.be",
+  "image": "https://theboysontruimen.com/og.jpg",
+  "description": "Ontruimingsfirma uit Gent: woningen, appartementen en bedrijfspanden leegmaken, mobiele containerpark service, werfopkuis en het reinigen van terrassen, gevels en dakgoten, in heel Oost- en West-Vlaanderen. Gratis offerte met vaste prijs binnen 24 uur.",
+  "inLanguage": "nl-BE",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Gent",
+    "postalCode": "9000",
+    "addressRegion": "Oost-Vlaanderen",
+    "addressCountry": "BE"
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Oost-Vlaanderen"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "West-Vlaanderen"
+    },
+    {
+      "@type": "City",
+      "name": "Gent"
+    },
+    {
+      "@type": "City",
+      "name": "Brugge"
+    },
+    {
+      "@type": "City",
+      "name": "Oostende"
+    },
+    {
+      "@type": "City",
+      "name": "Knokke-Heist"
+    },
+    {
+      "@type": "City",
+      "name": "Kortrijk"
+    },
+    {
+      "@type": "City",
+      "name": "Roeselare"
+    },
+    {
+      "@type": "City",
+      "name": "Aalter"
+    },
+    {
+      "@type": "City",
+      "name": "Deinze"
+    },
+    {
+      "@type": "City",
+      "name": "Eeklo"
+    },
+    {
+      "@type": "City",
+      "name": "Aalst"
+    },
+    {
+      "@type": "City",
+      "name": "Sint-Niklaas"
+    }
+  ],
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "Anton Versele",
+      "jobTitle": "Zaakvoerder",
+      "worksFor": {
+        "@id": "https://theboysontruimen.com/#business"
       }
+    },
+    {
+      "@type": "Person",
+      "name": "Lucas Calliauw",
+      "jobTitle": "Zaakvoerder",
+      "worksFor": {
+        "@id": "https://theboysontruimen.com/#business"
+      }
+    }
+  ],
+  "vatID": "BE1030220271",
+  "priceRange": "€€",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "07:00",
+      "closes": "18:00"
+    }
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+32467036401",
+      "availableLanguage": "nl",
+      "url": "https://wa.me/32467036401"
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "sales",
+      "name": "Gratis offerte aanvragen",
+      "url": "https://theboysontruimen.com/offerte",
+      "availableLanguage": "nl"
+    }
+  ],
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "name": "Gratis offerte aanvragen",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://theboysontruimen.com/offerte",
+      "inLanguage": "nl-BE",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/MobileWebPlatform"
+      ]
+    }
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Diensten",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Ontruimen van woning of pand",
+          "description": "Woningen, appartementen, kantoren en loodsen volledig leegmaken, alles gesorteerd en correct afgevoerd, op vraag verhuurklaar opgeleverd.",
+          "url": "https://theboysontruimen.com/diensten/ontruimen",
+          "areaServed": [
+            "Oost-Vlaanderen",
+            "West-Vlaanderen"
+          ],
+          "provider": {
+            "@id": "https://theboysontruimen.com/#business"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Mobiele containerpark service",
+          "description": "Overig afval ophalen aan huis en naar het containerpark brengen, ook grote stukken zoals matrassen, meubels en bouwafval.",
+          "url": "https://theboysontruimen.com/diensten/mobiele-containerpark-service",
+          "areaServed": [
+            "Oost-Vlaanderen",
+            "West-Vlaanderen"
+          ],
+          "provider": {
+            "@id": "https://theboysontruimen.com/#business"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Werfopkuis",
+          "description": "Werven leeg en proper opleveren na nieuwbouw of renovatie, voor particulieren en aannemers.",
+          "url": "https://theboysontruimen.com/diensten/werfopkuis",
+          "areaServed": [
+            "Oost-Vlaanderen",
+            "West-Vlaanderen"
+          ],
+          "provider": {
+            "@id": "https://theboysontruimen.com/#business"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Reinigen van terrassen, gevels en dakgoten",
+          "description": "Hogedrukreiniging van terrassen, opritten en gevels; dakgoten leegmaken.",
+          "url": "https://theboysontruimen.com/diensten/terrassen-gevels-dakgoten",
+          "areaServed": [
+            "Oost-Vlaanderen",
+            "West-Vlaanderen"
+          ],
+          "provider": {
+            "@id": "https://theboysontruimen.com/#business"
+          }
+        }
+      }
+    ]
+  },
+  "sameAs": []
+}
     </script>
-    <script type="module" crossorigin src="/theboys-preview/assets/index-rDzlXMp8.js"></script>
-    <link rel="stylesheet" crossorigin href="/theboys-preview/assets/index-CTuBvlaS.css">
+    <script type="module" crossorigin src="/theboys-preview/assets/index-Bg81_FFL.js"></script>
+    <link rel="stylesheet" crossorigin href="/theboys-preview/assets/index-B9gGX8bx.css">
   </head>
 
   <body>
-    <div id="root"><div class="min-h-screen flex flex-col"><header class="sticky top-0 z-50 bg-cream/95 backdrop-blur border-b border-border"><div class="container flex items-center justify-between h-[72px] md:h-[88px]"><a aria-label="The Boys Ontruimen, naar de startpagina" href="/theboys-preview"><span class="inline-flex flex-col leading-none md:hidden"><span class="font-display font-extrabold uppercase text-[24px] text-navy">The Boys</span><span class="font-bold uppercase tracking-[0.14em] text-[10px] text-muted-foreground">Ontruimingsfirma</span></span><span class="flex-col leading-none hidden md:inline-flex"><span class="font-display font-extrabold uppercase text-[30px] text-navy">The Boys</span><span class="font-bold uppercase tracking-[0.14em] text-[11px] text-muted-foreground">Ontruimingsfirma</span></span></a><nav class="hidden lg:flex items-center gap-8" aria-label="Hoofdmenu"><a class="font-semibold text-foreground hover:text-primary transition-colors text-primary" href="/theboys-preview/diensten">Diensten</a><a class="font-semibold text-foreground hover:text-primary transition-colors" href="/theboys-preview#voor-na">Voor &amp; na</a><a class="font-semibold text-foreground hover:text-primary transition-colors" href="/theboys-preview#over-ons">Over ons</a><a class="font-semibold text-foreground hover:text-primary transition-colors" href="/theboys-preview#faq">FAQ</a><a class="font-semibold text-foreground hover:text-primary transition-colors" href="/theboys-preview#contact">Contact</a></nav><div class="hidden lg:flex items-center gap-4"><a class="inline-flex items-center justify-center gap-2.5 rounded-xl font-bold whitespace-nowrap transition-all h-11 px-5 text-base bg-primary text-primary-foreground hover:bg-primary/90 shadow-md hover:shadow-lg" href="/theboys-preview/offerte">Vraag een offerte</a></div><button type="button" class="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-lg border border-border text-navy" aria-expanded="false" aria-label="Menu openen"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></header><main class="flex-1"><section class="container pt-14 md:pt-20 flex flex-col gap-3"><span class="eyebrow">Diensten</span><h1 class="text-[48px] md:text-[72px] text-navy">Wat we voor je doen</h1><p class="text-lg text-muted-foreground max-w-[560px]">Van één kelder tot een volledig huis. Kies wat je nodig hebt, wij regelen de rest.</p></section><section id="diensten" class="snap-section container py-16 md:py-24 flex flex-col gap-9"><div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5"><a class="group flex flex-col overflow-hidden rounded-xl border border-border bg-card hover:shadow-lg transition-shadow" href="/theboys-preview/diensten/ontruimen"><img src="/theboys-preview/assets/dienst-ontruimen-CXnZnV1l.jpg" alt="" loading="lazy" class="w-full h-[210px] object-cover group-hover:scale-[1.02] transition-transform duration-300"/><div class="flex flex-col gap-2.5 p-5 pb-6 flex-grow"><span class="w-10 h-10 rounded-[10px] bg-cream text-primary inline-flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg></span><h3 class="text-[22px] text-navy min-h-[66px] flex items-end">Ontruimen van woning of pand</h3><p class="text-[15px] text-muted-foreground">De volledige inboedel weg, van kelder tot zolder. Gesorteerd en correct afgevoerd.</p><span class="mt-auto pt-2 font-bold text-[15px] text-primary group-hover:underline">Meer over deze dienst →</span></div></a><a class="group flex flex-col overflow-hidden rounded-xl border border-border bg-card hover:shadow-lg transition-shadow" href="/theboys-preview/diensten/mobiele-containerpark-service"><img src="/theboys-preview/assets/dienst-containerpark-CY2VBPLG.jpg" alt="" loading="lazy" class="w-full h-[210px] object-cover group-hover:scale-[1.02] transition-transform duration-300"/><div class="flex flex-col gap-2.5 p-5 pb-6 flex-grow"><span class="w-10 h-10 rounded-[10px] bg-cream text-primary inline-flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg></span><h3 class="text-[22px] text-navy min-h-[66px] flex items-end">Mobiele containerpark service</h3><p class="text-[15px] text-muted-foreground">Wij halen je overige afval op en brengen het naar het containerpark. Jij hoeft niet te rijden.</p><span class="mt-auto pt-2 font-bold text-[15px] text-primary group-hover:underline">Meer over deze dienst →</span></div></a><a class="group flex flex-col overflow-hidden rounded-xl border border-border bg-card hover:shadow-lg transition-shadow" href="/theboys-preview/diensten/werfopkuis"><img src="/theboys-preview/assets/dienst-werfopkuis-BBOmDDYm.jpg" alt="" loading="lazy" class="w-full h-[210px] object-cover group-hover:scale-[1.02] transition-transform duration-300"/><div class="flex flex-col gap-2.5 p-5 pb-6 flex-grow"><span class="w-10 h-10 rounded-[10px] bg-cream text-primary inline-flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brush"><path d="m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08"></path><path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z"></path></svg></span><h3 class="text-[22px] text-navy min-h-[66px] flex items-end">Werfopkuis</h3><p class="text-[15px] text-muted-foreground">De werf proper opgeleverd na nieuwbouw of renovatie, voor een propere start.</p><span class="mt-auto pt-2 font-bold text-[15px] text-primary group-hover:underline">Meer over deze dienst →</span></div></a><a class="group flex flex-col overflow-hidden rounded-xl border border-border bg-card hover:shadow-lg transition-shadow" href="/theboys-preview/diensten/terrassen-gevels-dakgoten"><img src="/theboys-preview/assets/dienst-reinigen-BktFPM1L.jpg" alt="" loading="lazy" class="w-full h-[210px] object-cover group-hover:scale-[1.02] transition-transform duration-300"/><div class="flex flex-col gap-2.5 p-5 pb-6 flex-grow"><span class="w-10 h-10 rounded-[10px] bg-cream text-primary inline-flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-spray-can"><path d="M3 3h.01"></path><path d="M7 5h.01"></path><path d="M11 7h.01"></path><path d="M3 7h.01"></path><path d="M7 9h.01"></path><path d="M3 11h.01"></path><rect width="4" height="4" x="15" y="5"></rect><path d="m19 9 2 2v10c0 .6-.4 1-1 1h-6c-.6 0-1-.4-1-1V11l2-2"></path><path d="m13 14 8-2"></path><path d="m13 19 8-2"></path></svg></span><h3 class="text-[22px] text-navy min-h-[66px] flex items-end">Reinigen van terrassen, gevels en dakgoten</h3><p class="text-[15px] text-muted-foreground">Grondige hogedrukreiniging met de juiste producten, en dakgoten professioneel gereinigd.</p><span class="mt-auto pt-2 font-bold text-[15px] text-primary group-hover:underline">Meer over deze dienst →</span></div></a></div></section><section class="container pb-16 md:pb-20"><div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 p-8 md:px-12 md:py-10 rounded-xl bg-primary text-white"><div class="flex flex-col gap-1.5"><h2 class="text-[32px] md:text-[40px]">Klaar om plaats te maken?</h2><p class="text-[17px] text-white/90">Stuur een paar foto&#x27;s en je krijgt binnen 24 uur een vaste prijs.</p></div><a class="inline-flex items-center justify-center gap-2.5 rounded-xl font-bold whitespace-nowrap transition-all h-14 px-7 text-[17px] bg-navy text-secondary-foreground hover:bg-navy-light shrink-0" href="/theboys-preview/offerte">Vraag je gratis offerte</a></div></section></main><footer class="bg-navy text-cream"><div class="container py-12 md:py-14 grid gap-8 md:grid-cols-[1.4fr_1fr_1fr]"><div class="flex flex-col gap-4"><span class="inline-flex flex-col leading-none"><span class="font-display font-extrabold uppercase text-[30px] text-cream">The Boys</span><span class="font-bold uppercase tracking-[0.14em] text-[11px] text-cream/70">Ontruimingsfirma</span></span><p class="text-cream/75 max-w-md">Ontruimen, verhuurklaar maken en reinigen in Oost- en West-Vlaanderen. Snel, discreet en proper, van de kust tot Gent.</p><div class="flex flex-col gap-1.5 text-sm text-cream/70"><span>Anton Versele<!-- --> · BE <!-- -->1030.220.271<!-- --> · <!-- -->Watermolenstraat 20 bus 401, 9000 Gent</span><span>Lucas Calliauw<!-- --> · BE <!-- -->1030.219.182<!-- --> · <!-- -->Eeklostraat 41, 9030 Gent</span></div></div><div class="flex flex-col gap-3"><span class="font-display text-lg text-primary uppercase">Diensten</span><a class="hover:text-primary transition-colors" href="/theboys-preview/diensten/ontruimen">Ontruimen van woning of pand</a><a class="hover:text-primary transition-colors" href="/theboys-preview/diensten/mobiele-containerpark-service">Mobiele containerpark service</a><a class="hover:text-primary transition-colors" href="/theboys-preview/diensten/werfopkuis">Werfopkuis</a><a class="hover:text-primary transition-colors" href="/theboys-preview/diensten/terrassen-gevels-dakgoten">Reinigen van terrassen, gevels en dakgoten</a><a class="hover:text-primary transition-colors" href="/theboys-preview/vastgoedkantoren">Voor vastgoedkantoren</a></div><div class="flex flex-col gap-3"><span class="font-display text-lg text-primary uppercase">Contact</span><a href="tel:+32467036401" class="inline-flex items-center gap-2 hover:text-primary transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> <!-- -->+32 467 03 64 01</a><a href="https://wa.me/32467036401?text=Hallo%20The%20Boys%2C%20ik%20had%20graag%20een%20offerte%20voor%3A%20" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 hover:text-primary transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg> WhatsApp</a><a href="mailto:info@theboysontruimen.be" class="inline-flex items-center gap-2 hover:text-primary transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg> <!-- -->info@theboysontruimen.be</a><div class="flex flex-wrap gap-x-4 gap-y-2 mt-2 text-sm text-cream/70"><a class="hover:text-primary" href="/theboys-preview/algemene-voorwaarden">Algemene voorwaarden</a><a class="hover:text-primary" href="/theboys-preview/privacy">Privacy</a></div></div></div><div class="border-t border-navy-light"><div class="container py-4 text-sm text-cream/50">© <!-- -->2026<!-- --> The Boys Ontruimen · <!-- -->theboysontruimen.com</div></div></footer><a href="https://wa.me/32467036401?text=Hallo%20The%20Boys%2C%20ik%20had%20graag%20een%20offerte%20voor%3A%20" target="_blank" rel="noopener noreferrer" aria-label="Stuur ons een WhatsApp-bericht" class="fixed bottom-4 right-4 z-40 w-14 h-14 rounded-full bg-primary text-white inline-flex items-center justify-center shadow-[0_10px_24px_rgba(23,38,63,.3)] hover:bg-primary/90 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg></a></div></div>
+    <div id="root"><div class="min-h-screen flex flex-col"><header class="sticky top-0 z-50 bg-cream/95 backdrop-blur border-b border-border"><div class="container flex items-center justify-between h-[72px] md:h-[88px]"><a aria-label="The Boys Ontruimen, naar de startpagina" href="/theboys-preview"><span class="inline-flex flex-col leading-none md:hidden"><span class="font-display font-extrabold uppercase text-[24px] text-navy">The Boys</span><span class="font-bold uppercase tracking-[0.14em] text-[10px] text-muted-foreground">Ontruimingsfirma</span></span><span class="flex-col leading-none hidden md:inline-flex"><span class="font-display font-extrabold uppercase text-[30px] text-navy">The Boys</span><span class="font-bold uppercase tracking-[0.14em] text-[11px] text-muted-foreground">Ontruimingsfirma</span></span></a><nav class="hidden lg:flex items-center gap-8" aria-label="Hoofdmenu"><a class="font-semibold text-foreground hover:text-primary transition-colors text-primary" href="/theboys-preview/diensten">Diensten</a><a class="font-semibold text-foreground hover:text-primary transition-colors" href="/theboys-preview#voor-na">Voor &amp; na</a><a class="font-semibold text-foreground hover:text-primary transition-colors" href="/theboys-preview#over-ons">Over ons</a><a class="font-semibold text-foreground hover:text-primary transition-colors" href="/theboys-preview#faq">FAQ</a><a class="font-semibold text-foreground hover:text-primary transition-colors" href="/theboys-preview#contact">Contact</a></nav><div class="hidden lg:flex items-center gap-4"><a class="inline-flex items-center justify-center gap-2.5 rounded-xl font-bold whitespace-nowrap transition-all h-11 px-5 text-base bg-primary text-primary-foreground hover:bg-primary/90 shadow-md hover:shadow-lg" href="/theboys-preview/offerte">Vraag een offerte</a></div><button type="button" class="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-lg border border-border text-navy" aria-expanded="false" aria-label="Menu openen"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></header><main class="flex-1"><section class="container pt-14 md:pt-20 flex flex-col gap-3"><span class="eyebrow">Diensten</span><h1 class="text-[48px] md:text-[72px] text-navy">Wat we voor je doen</h1><p class="text-lg text-muted-foreground max-w-[560px]">Van één kelder tot een volledig huis. Kies wat je nodig hebt, wij regelen de rest.</p></section><section id="diensten" class="snap-section container py-16 md:py-24 flex flex-col gap-9"><div class="flex flex-col gap-3 sm:hidden"><a class="flex items-center gap-3.5 p-3.5 rounded-xl border border-border bg-card active:bg-cream" href="/theboys-preview/diensten/ontruimen"><img src="/theboys-preview/assets/dienst-ontruimen-CXnZnV1l.jpg" alt="" loading="lazy" class="w-[88px] h-[88px] object-cover rounded-[10px] shrink-0"/><div class="flex flex-col gap-1 flex-grow min-w-0"><h3 class="text-[19px] text-navy">Ontruimen van woning of pand</h3><p class="text-sm text-muted-foreground">De volledige inboedel weg, van kelder tot zolder. Gesorteerd en correct afgevoerd.</p></div><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right text-primary shrink-0"><path d="m9 18 6-6-6-6"></path></svg></a><a class="flex items-center gap-3.5 p-3.5 rounded-xl border border-border bg-card active:bg-cream" href="/theboys-preview/diensten/mobiele-containerpark-service"><img src="/theboys-preview/assets/dienst-containerpark-CY2VBPLG.jpg" alt="" loading="lazy" class="w-[88px] h-[88px] object-cover rounded-[10px] shrink-0"/><div class="flex flex-col gap-1 flex-grow min-w-0"><h3 class="text-[19px] text-navy">Mobiele containerpark service</h3><p class="text-sm text-muted-foreground">Wij halen je overige afval op en brengen het naar het containerpark. Jij hoeft niet te rijden.</p></div><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right text-primary shrink-0"><path d="m9 18 6-6-6-6"></path></svg></a><a class="flex items-center gap-3.5 p-3.5 rounded-xl border border-border bg-card active:bg-cream" href="/theboys-preview/diensten/werfopkuis"><img src="/theboys-preview/assets/dienst-werfopkuis-BBOmDDYm.jpg" alt="" loading="lazy" class="w-[88px] h-[88px] object-cover rounded-[10px] shrink-0"/><div class="flex flex-col gap-1 flex-grow min-w-0"><h3 class="text-[19px] text-navy">Werfopkuis</h3><p class="text-sm text-muted-foreground">De werf proper opgeleverd na nieuwbouw of renovatie, voor een propere start.</p></div><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right text-primary shrink-0"><path d="m9 18 6-6-6-6"></path></svg></a><a class="flex items-center gap-3.5 p-3.5 rounded-xl border border-border bg-card active:bg-cream" href="/theboys-preview/diensten/terrassen-gevels-dakgoten"><img src="/theboys-preview/assets/dienst-reinigen-BktFPM1L.jpg" alt="" loading="lazy" class="w-[88px] h-[88px] object-cover rounded-[10px] shrink-0"/><div class="flex flex-col gap-1 flex-grow min-w-0"><h3 class="text-[19px] text-navy">Reinigen van terrassen, gevels en dakgoten</h3><p class="text-sm text-muted-foreground">Grondige hogedrukreiniging met de juiste producten, en dakgoten professioneel gereinigd.</p></div><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right text-primary shrink-0"><path d="m9 18 6-6-6-6"></path></svg></a></div><div class="hidden sm:grid gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5"><a class="group flex flex-col overflow-hidden rounded-xl border border-border bg-card hover:shadow-lg transition-shadow" href="/theboys-preview/diensten/ontruimen"><img src="/theboys-preview/assets/dienst-ontruimen-CXnZnV1l.jpg" alt="" loading="lazy" class="w-full h-[210px] object-cover group-hover:scale-[1.02] transition-transform duration-300"/><div class="flex flex-col gap-2.5 p-5 pb-6 flex-grow"><span class="w-10 h-10 rounded-[10px] bg-cream text-primary inline-flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg></span><h3 class="text-[22px] text-navy min-h-[66px] flex items-end">Ontruimen van woning of pand</h3><p class="text-[15px] text-muted-foreground">De volledige inboedel weg, van kelder tot zolder. Gesorteerd en correct afgevoerd.</p><span class="mt-auto pt-2 font-bold text-[15px] text-primary group-hover:underline">Meer over deze dienst →</span></div></a><a class="group flex flex-col overflow-hidden rounded-xl border border-border bg-card hover:shadow-lg transition-shadow" href="/theboys-preview/diensten/mobiele-containerpark-service"><img src="/theboys-preview/assets/dienst-containerpark-CY2VBPLG.jpg" alt="" loading="lazy" class="w-full h-[210px] object-cover group-hover:scale-[1.02] transition-transform duration-300"/><div class="flex flex-col gap-2.5 p-5 pb-6 flex-grow"><span class="w-10 h-10 rounded-[10px] bg-cream text-primary inline-flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg></span><h3 class="text-[22px] text-navy min-h-[66px] flex items-end">Mobiele containerpark service</h3><p class="text-[15px] text-muted-foreground">Wij halen je overige afval op en brengen het naar het containerpark. Jij hoeft niet te rijden.</p><span class="mt-auto pt-2 font-bold text-[15px] text-primary group-hover:underline">Meer over deze dienst →</span></div></a><a class="group flex flex-col overflow-hidden rounded-xl border border-border bg-card hover:shadow-lg transition-shadow" href="/theboys-preview/diensten/werfopkuis"><img src="/theboys-preview/assets/dienst-werfopkuis-BBOmDDYm.jpg" alt="" loading="lazy" class="w-full h-[210px] object-cover group-hover:scale-[1.02] transition-transform duration-300"/><div class="flex flex-col gap-2.5 p-5 pb-6 flex-grow"><span class="w-10 h-10 rounded-[10px] bg-cream text-primary inline-flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brush"><path d="m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08"></path><path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z"></path></svg></span><h3 class="text-[22px] text-navy min-h-[66px] flex items-end">Werfopkuis</h3><p class="text-[15px] text-muted-foreground">De werf proper opgeleverd na nieuwbouw of renovatie, voor een propere start.</p><span class="mt-auto pt-2 font-bold text-[15px] text-primary group-hover:underline">Meer over deze dienst →</span></div></a><a class="group flex flex-col overflow-hidden rounded-xl border border-border bg-card hover:shadow-lg transition-shadow" href="/theboys-preview/diensten/terrassen-gevels-dakgoten"><img src="/theboys-preview/assets/dienst-reinigen-BktFPM1L.jpg" alt="" loading="lazy" class="w-full h-[210px] object-cover group-hover:scale-[1.02] transition-transform duration-300"/><div class="flex flex-col gap-2.5 p-5 pb-6 flex-grow"><span class="w-10 h-10 rounded-[10px] bg-cream text-primary inline-flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-spray-can"><path d="M3 3h.01"></path><path d="M7 5h.01"></path><path d="M11 7h.01"></path><path d="M3 7h.01"></path><path d="M7 9h.01"></path><path d="M3 11h.01"></path><rect width="4" height="4" x="15" y="5"></rect><path d="m19 9 2 2v10c0 .6-.4 1-1 1h-6c-.6 0-1-.4-1-1V11l2-2"></path><path d="m13 14 8-2"></path><path d="m13 19 8-2"></path></svg></span><h3 class="text-[22px] text-navy min-h-[66px] flex items-end">Reinigen van terrassen, gevels en dakgoten</h3><p class="text-[15px] text-muted-foreground">Grondige hogedrukreiniging met de juiste producten, en dakgoten professioneel gereinigd.</p><span class="mt-auto pt-2 font-bold text-[15px] text-primary group-hover:underline">Meer over deze dienst →</span></div></a></div></section><section class="container pb-16 md:pb-20"><div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 p-8 md:px-12 md:py-10 rounded-xl bg-primary text-white"><div class="flex flex-col gap-1.5"><h2 class="text-[32px] md:text-[40px]">Klaar om plaats te maken?</h2><p class="text-[17px] text-white/90">Stuur een paar foto&#x27;s en je krijgt binnen 24 uur een vaste prijs.</p></div><a class="inline-flex items-center justify-center gap-2.5 rounded-xl font-bold whitespace-nowrap transition-all h-14 px-7 text-[17px] bg-navy text-secondary-foreground hover:bg-navy-light shrink-0" href="/theboys-preview/offerte">Vraag je gratis offerte</a></div></section></main><footer class="bg-navy text-cream"><div class="container py-12 md:py-14 grid gap-8 md:grid-cols-[1.4fr_1fr_1fr]"><div class="flex flex-col gap-4"><span class="inline-flex flex-col leading-none"><span class="font-display font-extrabold uppercase text-[30px] text-cream">The Boys</span><span class="font-bold uppercase tracking-[0.14em] text-[11px] text-cream/70">Ontruimingsfirma</span></span><p class="text-cream/75 max-w-md">Ontruimen, verhuurklaar maken en reinigen in Oost- en West-Vlaanderen. Snel, discreet en proper, van de kust tot Gent.</p><div class="flex flex-col gap-1.5 text-sm text-cream/70"><span>Anton Versele<!-- --> · BE <!-- -->1030.220.271<!-- --> · <!-- -->Watermolenstraat 20 bus 401, 9000 Gent</span><span>Lucas Calliauw<!-- --> · BE <!-- -->1030.219.182<!-- --> · <!-- -->Eeklostraat 41, 9030 Gent</span></div></div><div class="flex flex-col gap-3"><span class="font-display text-lg text-primary uppercase">Diensten</span><a class="hover:text-primary transition-colors" href="/theboys-preview/diensten/ontruimen">Ontruimen van woning of pand</a><a class="hover:text-primary transition-colors" href="/theboys-preview/diensten/mobiele-containerpark-service">Mobiele containerpark service</a><a class="hover:text-primary transition-colors" href="/theboys-preview/diensten/werfopkuis">Werfopkuis</a><a class="hover:text-primary transition-colors" href="/theboys-preview/diensten/terrassen-gevels-dakgoten">Reinigen van terrassen, gevels en dakgoten</a><a class="hover:text-primary transition-colors" href="/theboys-preview/vastgoedkantoren">Voor vastgoedkantoren</a></div><div class="flex flex-col gap-3"><span class="font-display text-lg text-primary uppercase">Contact</span><a href="tel:+32467036401" class="inline-flex items-center gap-2 hover:text-primary transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> <!-- -->+32 467 03 64 01</a><a href="https://wa.me/32467036401?text=Hallo%20The%20Boys%2C%20ik%20had%20graag%20een%20offerte%20voor%3A%20" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 hover:text-primary transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg> WhatsApp</a><a href="mailto:info@theboysontruimen.be" class="inline-flex items-center gap-2 hover:text-primary transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg> <!-- -->info@theboysontruimen.be</a><div class="flex flex-wrap gap-x-4 gap-y-2 mt-2 text-sm text-cream/70"><a class="hover:text-primary" href="/theboys-preview/algemene-voorwaarden">Algemene voorwaarden</a><a class="hover:text-primary" href="/theboys-preview/privacy">Privacy</a></div></div></div><div class="border-t border-navy-light"><div class="container py-4 text-sm text-cream/50">© <!-- -->2026<!-- --> The Boys Ontruimen · <!-- -->theboysontruimen.com</div></div></footer><a href="https://wa.me/32467036401?text=Hallo%20The%20Boys%2C%20ik%20had%20graag%20een%20offerte%20voor%3A%20" target="_blank" rel="noopener noreferrer" aria-label="Stuur ons een WhatsApp-bericht" class="fixed bottom-4 right-4 z-40 w-14 h-14 rounded-full bg-primary text-white inline-flex items-center justify-center shadow-[0_10px_24px_rgba(23,38,63,.3)] hover:bg-primary/90 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg></a></div></div>
   </body>
 </html>

@@ -35,39 +35,218 @@
     />
 
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "@id": "https://theboysontruimen.com/#business",
-        "name": "The Boys Ontruimen",
-        "alternateName": "The Boys Ontruimingsfirma",
-        "url": "https://theboysontruimen.com/",
-        "telephone": "+32467036401",
-        "email": "info@theboysontruimen.be",
-        "image": "https://theboysontruimen.com/og.jpg",
-        "description": "Ontruimen van woningen en panden, mobiele containerpark service, werfopkuis en het reinigen van terrassen, gevels en dakgoten in Oost- en West-Vlaanderen.",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Gent",
-          "addressRegion": "Oost-Vlaanderen",
-          "addressCountry": "BE"
-        },
-        "areaServed": [
-          { "@type": "AdministrativeArea", "name": "Oost-Vlaanderen" },
-          { "@type": "AdministrativeArea", "name": "West-Vlaanderen" }
-        ],
-        "founder": [
-          { "@type": "Person", "name": "Anton Versele" },
-          { "@type": "Person", "name": "Lucas Calliauw" }
-        ],
-        "vatID": "BE1030220271",
-        "priceRange": "€€",
-        "openingHours": "Mo-Fr 07:00-18:00",
-        "sameAs": []
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://theboysontruimen.com/#business",
+  "name": "The Boys Ontruimen",
+  "alternateName": "The Boys Ontruimingsfirma",
+  "url": "https://theboysontruimen.com/",
+  "telephone": "+32467036401",
+  "email": "info@theboysontruimen.be",
+  "image": "https://theboysontruimen.com/og.jpg",
+  "description": "Ontruimingsfirma uit Gent: woningen, appartementen en bedrijfspanden leegmaken, mobiele containerpark service, werfopkuis en het reinigen van terrassen, gevels en dakgoten, in heel Oost- en West-Vlaanderen. Gratis offerte met vaste prijs binnen 24 uur.",
+  "inLanguage": "nl-BE",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Gent",
+    "postalCode": "9000",
+    "addressRegion": "Oost-Vlaanderen",
+    "addressCountry": "BE"
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Oost-Vlaanderen"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "West-Vlaanderen"
+    },
+    {
+      "@type": "City",
+      "name": "Gent"
+    },
+    {
+      "@type": "City",
+      "name": "Brugge"
+    },
+    {
+      "@type": "City",
+      "name": "Oostende"
+    },
+    {
+      "@type": "City",
+      "name": "Knokke-Heist"
+    },
+    {
+      "@type": "City",
+      "name": "Kortrijk"
+    },
+    {
+      "@type": "City",
+      "name": "Roeselare"
+    },
+    {
+      "@type": "City",
+      "name": "Aalter"
+    },
+    {
+      "@type": "City",
+      "name": "Deinze"
+    },
+    {
+      "@type": "City",
+      "name": "Eeklo"
+    },
+    {
+      "@type": "City",
+      "name": "Aalst"
+    },
+    {
+      "@type": "City",
+      "name": "Sint-Niklaas"
+    }
+  ],
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "Anton Versele",
+      "jobTitle": "Zaakvoerder",
+      "worksFor": {
+        "@id": "https://theboysontruimen.com/#business"
       }
+    },
+    {
+      "@type": "Person",
+      "name": "Lucas Calliauw",
+      "jobTitle": "Zaakvoerder",
+      "worksFor": {
+        "@id": "https://theboysontruimen.com/#business"
+      }
+    }
+  ],
+  "vatID": "BE1030220271",
+  "priceRange": "€€",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "07:00",
+      "closes": "18:00"
+    }
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+32467036401",
+      "availableLanguage": "nl",
+      "url": "https://wa.me/32467036401"
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "sales",
+      "name": "Gratis offerte aanvragen",
+      "url": "https://theboysontruimen.com/offerte",
+      "availableLanguage": "nl"
+    }
+  ],
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "name": "Gratis offerte aanvragen",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://theboysontruimen.com/offerte",
+      "inLanguage": "nl-BE",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/MobileWebPlatform"
+      ]
+    }
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Diensten",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Ontruimen van woning of pand",
+          "description": "Woningen, appartementen, kantoren en loodsen volledig leegmaken, alles gesorteerd en correct afgevoerd, op vraag verhuurklaar opgeleverd.",
+          "url": "https://theboysontruimen.com/diensten/ontruimen",
+          "areaServed": [
+            "Oost-Vlaanderen",
+            "West-Vlaanderen"
+          ],
+          "provider": {
+            "@id": "https://theboysontruimen.com/#business"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Mobiele containerpark service",
+          "description": "Overig afval ophalen aan huis en naar het containerpark brengen, ook grote stukken zoals matrassen, meubels en bouwafval.",
+          "url": "https://theboysontruimen.com/diensten/mobiele-containerpark-service",
+          "areaServed": [
+            "Oost-Vlaanderen",
+            "West-Vlaanderen"
+          ],
+          "provider": {
+            "@id": "https://theboysontruimen.com/#business"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Werfopkuis",
+          "description": "Werven leeg en proper opleveren na nieuwbouw of renovatie, voor particulieren en aannemers.",
+          "url": "https://theboysontruimen.com/diensten/werfopkuis",
+          "areaServed": [
+            "Oost-Vlaanderen",
+            "West-Vlaanderen"
+          ],
+          "provider": {
+            "@id": "https://theboysontruimen.com/#business"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Reinigen van terrassen, gevels en dakgoten",
+          "description": "Hogedrukreiniging van terrassen, opritten en gevels; dakgoten leegmaken.",
+          "url": "https://theboysontruimen.com/diensten/terrassen-gevels-dakgoten",
+          "areaServed": [
+            "Oost-Vlaanderen",
+            "West-Vlaanderen"
+          ],
+          "provider": {
+            "@id": "https://theboysontruimen.com/#business"
+          }
+        }
+      }
+    ]
+  },
+  "sameAs": []
+}
     </script>
-    <script type="module" crossorigin src="/theboys-preview/assets/index-rDzlXMp8.js"></script>
-    <link rel="stylesheet" crossorigin href="/theboys-preview/assets/index-CTuBvlaS.css">
+    <script type="module" crossorigin src="/theboys-preview/assets/index-Bg81_FFL.js"></script>
+    <link rel="stylesheet" crossorigin href="/theboys-preview/assets/index-B9gGX8bx.css">
   </head>
 
   <body>
